@@ -2,11 +2,11 @@ namespace be_m1_linq.Classes;
 
 public class DataHandler
 {
-    //*grab data from csv-file in library-folder
+    //* field for the pathing to the csv file
     private readonly string _path;
 
-    //* Metode så man faktisk kan lage if-statements osv...
-    public DataHandler(string path)
+    //*grab data from csv-file in library-folder
+    public getData(string path)
     {
         _path = path;
 
