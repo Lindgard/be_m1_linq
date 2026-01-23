@@ -14,7 +14,10 @@ public class DataHandler
         {
             throw new FileNotFoundException($"CSV file not found at: {_path}");
         }
-        //TODO read file and make available for other methods
+        else
+        {
+            File.ReadAllLines(_path); //TODO read file and make available for other methods
+        }
     }
 
     //* lower amount of data to print in output
