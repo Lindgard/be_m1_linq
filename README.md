@@ -32,7 +32,7 @@ N --> P([END PROGRAM]);
 
 ## Todo
 
-- [] Figure out what to call a class for this project
-- [] Grab data from csv-file with class
-- [] Show the test-example via Program.cs
-- [] Make sure to use LINQ
+- [x] Figure out what to call a class for this project
+- [ ] Grab data from csv-file with class
+- [ ] Show the test-example via Program.cs
+- [ ] Make sure to use LINQ
