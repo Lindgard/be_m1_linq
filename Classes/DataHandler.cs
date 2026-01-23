@@ -14,15 +14,10 @@ public class DataHandler
         {
             throw new FileNotFoundException($"CSV file not found at: {_path}");
         }
-
+        //TODO read file and make available for other methods
     }
 
-
-
-    //TODO read file and make available for other methods
-
-
-    // lower amount of data to print in output
-    // Search for items containing the user-input
-    // use LINQ in searches and sorting
+    //* lower amount of data to print in output
+    //* Search for items containing the user-input
+    //* use LINQ in searches and sorting
 }
